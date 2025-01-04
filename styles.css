@@ -1,0 +1,77 @@
+body>h1{
+    color: solid black;
+}
+
+/* case 1 */
+.container .box p{
+    background-color: lightgreen;
+    border: 2px solid;
+    padding: 20px;
+    display: inline-block;
+}
+/* case 2 */
+.section>.content>p {
+    margin: 15px;
+    padding: 5px;
+    background-color: lightskyblue;
+    border: 2px solid;
+    display: inline-block;
+}
+/* case 3 */
+.card-header>p, .card-body>p {
+    border: 2px solid red;
+    background-color: lightskyblue;
+    padding:3px;
+}
+
+/* case 4 */
+.navbar>ul>li:nth-child(odd) {
+    background-color: powderblue;
+}
+.navbar>ul>li:nth-child(even) {
+    background-color:green;
+}
+
+/* case 5 */
+
+.header>h1{
+    margin-top: 20px;
+    background-color: lightgreen;
+     display: inline-block;
+}
+/* case 6 */
+
+.footer>span{
+    padding: 10px;
+     top: 2px;
+    border: 2px solid black;
+    background-color: bisque;
+
+}
+
+/* case 7 */
+.main-content >.content p{
+    border :1px solid black;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+/* case 8 */
+.nav>ul>li{
+    margin-right: 15px;
+    background-color: green;
+   
+}
+/* case 9 */
+/*  */
+.gallery>.photo{
+    background-color: lightgrey;
+}
+/* case 10 */
+.container .footer span{
+   
+    background-color:powderblue;
+   font-size: xx-large;
+   padding-top:5px ;
+    border-radius: 5px;
+}
